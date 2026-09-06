@@ -1,0 +1,17 @@
+{
+  "title": "Professional Projects",
+  "pages": [
+    "index",
+    "react-todo",
+    "web-todo-ts",
+    "bun-api",
+    "ticketing-app",
+    "static-site",
+    "blog-php",
+    "laravel-airbnb",
+    "laravel-group-project",
+    "chess",
+    "battleship",
+    "arduino-exam-2023-2024"
+  ]
+}

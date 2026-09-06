@@ -5,7 +5,10 @@ import tailwindcss from '@tailwindcss/vite';
 import { fumadocsMdx } from 'fumadocs-mdx/vite';
 import { nitro } from 'nitro/vite';
 
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
+
 export default defineConfig({
+  base: isGithubPages ? '/dossier-formation/' : '/',
   server: {
     port: 3000,
   },
